@@ -1,10 +1,10 @@
 # AI 产品经理转型项目
 
-本项目用于系统化推进「AI 产品经理 / AI Agent 产品经理 / AI 平台产品经理」转型：明确目标岗位、能力模型、90 天行动计划、作品集项目和复盘机制。
+本项目用于系统化推进「AI 产品经理 / AI Agent 产品经理 / AI 平台产品经理」转型：明确目标岗位、能力模型、30 天冲刺计划、作品集项目和复盘机制。
 
 ## 项目目标
 
-- 在 90 天内形成可展示的 AI 产品经理作品集，至少包含 2 个完整案例和 1 个可运行原型。
+- 在 30 天内形成 1 个可展示的 AI 产品经理核心作品集项目，并补充 1 个轻量案例拆解。
 - 建立 AI 产品从机会识别、数据与模型评估、PRD、实验设计到上线复盘的完整方法论。
 - 形成面向目标岗位的简历素材、面试故事和可量化成果。
 
@@ -22,28 +22,32 @@
 docs/
   01-targets-and-positioning.md   # 岗位目标、定位与阶段成果
   02-skill-map.md                 # AI 产品经理能力地图
-  03-90-day-roadmap.md            # 90 天学习与作品集路线图
+  03-30-day-roadmap.md            # 30 天学习与作品集冲刺路线图
   04-portfolio-projects.md        # 作品集项目选题与交付标准
   05-interview-and-resume.md      # 简历、面试与故事素材准备
+  06-start-today.md                # 今天开始学习的具体行动
 templates/
   ai-product-prd.md               # AI 产品 PRD 模板
   experiment-plan.md              # 实验与评测方案模板
   product-opportunity.md          # 机会洞察模板
+  daily-learning-log.md            # 每日学习记录模板
 tracker/
+  daily/                          # 每天学习记录
+  daily-learning-index.md          # 每日学习记录索引
   weekly-review.md                # 每周复盘与进度追踪
 ```
 
 ## 使用方式
 
-1. 先阅读 `docs/01-targets-and-positioning.md`，确定最适合你的 1 个主方向和 1 个备选方向。
+1. 先打开 `docs/06-start-today.md`，按今天的学习任务开始执行。
 2. 根据 `docs/02-skill-map.md` 给自己做能力盘点，找出前三个短板。
-3. 按 `docs/03-90-day-roadmap.md` 每周推进学习、输出和作品集建设。
+3. 按 `docs/03-30-day-roadmap.md` 每周推进学习、输出和作品集建设。
 4. 每个作品集项目都使用 `templates/` 下的模板沉淀为可展示材料。
-5. 每周填写 `tracker/weekly-review.md`，用结果而不是学习时长衡量进展。
+5. 每天填写 `tracker/daily/` 下的学习记录，并在每周填写 `tracker/weekly-review.md`，用结果而不是学习时长衡量进展。
 
-## 90 天成功标准
+## 30 天成功标准
 
 - 能清晰说明自己要解决的行业问题、目标用户、AI 方案和商业价值。
 - 能独立写出 AI 产品 PRD，并定义模型效果、业务效果和用户体验指标。
 - 能做基础原型，理解 RAG、Agent、Prompt、评测、成本与安全边界。
-- 能拿出 2-3 个作品集案例，用 STAR 方式讲清背景、决策、过程和结果。
+- 能拿出 1 个完整作品集案例和 1 个轻量竞品/机会拆解，用 STAR 方式讲清背景、决策、过程和结果。
